@@ -1,4 +1,5 @@
 import 'package:cs/gridtile.dart';
+import 'package:cs/media_queries.dart';
 import 'package:flutter/material.dart';
 import 'scroll_and_listview.builder.dart';
 
@@ -16,6 +17,7 @@ class MyApp extends StatelessWidget {
         title: 'Flutter Demo',
         theme: ThemeData(primarySwatch: Colors.deepPurple),
         // home: listview_scroll());
-        home: const gridtile());
+        // home: const gridtile());
+        home: const MediaQueries());
   }
 }
