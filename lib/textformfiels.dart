@@ -39,7 +39,7 @@ class _TextFormFieldState extends State<TextFormFields> {
                 ),
                 TextFormField(
                   obscureText: true, // means to hide the values
-                  validator: (value) {},
+                  validator: null,
                   obscuringCharacter: "*", //what to show instead of value
                   decoration: const InputDecoration(
                       labelText: "Password",
